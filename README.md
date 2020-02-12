@@ -1,9 +1,11 @@
 ## Linux Command ##
 
-在**MatLab**我們有help和lookfor，**Linux**也有類似的指令，有以下三種方式: 
+在**MatLab**我們有**help**和**lookfor**，**Linux**也有類似的指令，有以下三種方式: 
 - `man 指令`
 - `info 指令`
 - `指令 --help`
+
+- 忘記指令: 善用Tab鍵
 
 ### 一、絕對路徑和相對路徑 ###
 
@@ -19,9 +21,13 @@
 絕對路徑的寫法雖然比較麻煩，但是絕對不會有問題。 如果使用相對路徑在程式當中，則可能由於你執行的工作環境不同，導致一些問題的發生。
 因此，**在進行工作排程與shell script時，強烈建議使用絕對路徑。**
 
-### 目錄與檔案相關操作 ###
+### 二、目錄與檔案相關操作 ###
 
-Don't guess if your [hyperlink syntax](http://markdownpad.com) is correct; LivePreview will show you exactly what your document looks like every time you press a key.
+- `cd` (change directory): ˋcd 絕對路徑ˋ 或是 ˋcd 相對路徑ˋ
+- `..`: 目前自己所在的這個目錄得上一個目錄
+- `.`: 目前自己所在的目錄
+- `..`: 目前自己所在的這個目錄得上一個目錄
+
 
 ### Make it your own ###
 
