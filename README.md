@@ -12,8 +12,9 @@
 - 絕對路徑: 只要是由根目錄`/`寫起，就是絕對路徑的表示法
 - 相對路徑: 不是由根目錄`/`寫起，就是相對路徑的表示法
 
-- `.`: 目前自己所在的目錄
-- `..`: 目前自己所在的這個目錄得上一個目錄
+- `.` : 目前自己所在的目錄
+- `..` : 目前自己所在的這個目錄的上一個目錄
+- `~` : 自己的家目錄
 
 
 **注意**:
@@ -26,17 +27,20 @@
 - `pwd` : 顯示目前所在的目錄
   - `pwd -P` : 若你處在的目錄剛好是連結(link)，則不會顯示目前目錄，而是真實的路徑
 - `cd` (change directory): `cd 絕對路徑` 或是 `cd 相對路徑`
-- `mkdir` (make directory): 目前自己所在的這個目錄得上一個目錄
+  - `cd ..` : 回到上一頁的感覺?!
+- `mkdir` (make directory): 在Windows，就有點像是建立新資料夾 `mkdir 資料夾名稱`
 - `.` : 目前自己所在的目錄
 - `..` : 目前自己所在的這個目錄得上一個目錄
 
 
-### Make it your own ###
 
-Fonts, color schemes, layouts and stylesheets are all 100% customizable so you can turn MarkdownPad into your perfect editor.
 
-### A robust editor for advanced Markdown users ###
 
-MarkdownPad supports multiple Markdown processing engines, including standard Markdown, Markdown Extra (with Table support) and GitHub Flavored Markdown.
 
-With a tabbed document interface, PDF export, a built-in image uploader, session management, spell check, auto-save, syntax highlighting and a built-in CSS management interface, there's no limit to what you can do with MarkdownPad.
+
+
+
+
+
+
+
