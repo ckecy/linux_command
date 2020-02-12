@@ -30,6 +30,7 @@
 - `cd` (change directory): `cd 絕對路徑` 或是 `cd 相對路徑`
   - `cd ..` : 回到上一頁的感覺XD
 - `mkdir` (make directory): 在Windows，就有點像是建立新資料夾 `mkdir 目錄名稱`
+
 **檔案**
 - `cp` (copy): `cp 來源檔案名稱 目標檔案名稱`
   - `cp 來源檔案名稱 .` : 目標檔案名稱跟來源檔案名稱一樣
