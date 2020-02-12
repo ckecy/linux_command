@@ -54,7 +54,8 @@
 
 ### 三、權限 ###
 
-- `chmod` : 顯示目前所在的目錄
+基本權限有三種: read (r), write (w), execute (e)
+- `chmod` : 
 
 
 
