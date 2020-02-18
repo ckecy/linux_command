@@ -55,9 +55,10 @@
 ### 三、權限 ###
 
 基本權限有三種: read (r), write (w), execute (e)
-- `chmod` : 
-
-
-
+- `chmod` : `chmod 三個數字 檔案名稱`
+  - r : 4
+  - w : 2
+  - x : 1
+    - 把owner, group, others的權限分別相加
 
 
