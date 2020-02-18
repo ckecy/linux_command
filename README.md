@@ -59,6 +59,6 @@
   - r : 4
   - w : 2
   - x : 1
-    - 把owner, group, others的權限分別相加
+- 把owner, group, others的權限分別相加
 
 
